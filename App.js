@@ -15,7 +15,7 @@ export default function App() {
         <StatusBar style="auto" />
 
         <View style={styles.regSection}>
-          <Text style={styles.regTitle}>Registration</Text>
+          <Text style={styles.regTitle}>Sign Up</Text>
         </View>
 
         <TextInput label="Full Name" value={fullName} onChangeText={text => setFullName(text)} style={styles.input}/>
